@@ -27,7 +27,7 @@ Options
 ```
   -a, --address    Nimiq wallet address                      [string] [required]
   -s, --server     Pool server address
-                   Default: us.nimpool.io                               [string]
+                   Default: us.nimiqpocket.com                               [string]
   -p, --port       Pool server port
                    Default: 8444                                        [number]
   -d, --devices    Active GPUs
