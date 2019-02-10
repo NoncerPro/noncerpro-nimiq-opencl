@@ -74,7 +74,7 @@ The default values are pretty good but for the best performance try different va
 
 Overclocking
 ------------------------------------------
-Argon2d is highly dependent on memory bandwidth and memory clock. Try settings the memory clock as high as possible, usually around +1000. Other parameters must be adjusted based on the specific card and OS.
+Argon2d is highly dependent on memory bandwidth and memory clock. Try settings the memory clock as high as possible. Other parameters must be adjusted based on the specific card and OS.
 
 Dev fee
 ------------------------------------------
