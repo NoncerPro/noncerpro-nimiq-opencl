@@ -2,12 +2,15 @@
 
 This is the OpenCL version of NoncerPro GPU miner which utilizes the standard Nano mining protocol and is compatible with all of the available nimiq pools.
 
-### Download 
+### Links 
+
+Website: http://noncer.pro
+
+Discord server : https://discord.gg/buHphu
 
 releases: https://github.com/NoncerPro/noncerpro-nimiq-opencl/releases
 
-Download Nvidia miner:
-https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases
+Nvidia miner: https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases
 
 Donation addresses
 -------------------
