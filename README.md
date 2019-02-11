@@ -6,7 +6,7 @@ This is the OpenCL version of NoncerPro GPU miner which utilizes the standard Na
 
 Website: http://noncer.pro
 
-Discord server : https://discord.gg/buHphu
+Discord server : https://discord.gg/mXnyrHa
 
 releases: https://github.com/NoncerPro/noncerpro-nimiq-opencl/releases
 
