@@ -8,7 +8,9 @@ Website: http://noncer.pro
 
 Discord server : https://discord.gg/buHphu
 
-releases: https://github.com/NoncerPro/noncerpro-nimiq-opencl/releases
+Releases: https://github.com/NoncerPro/noncerpro-nimiq-opencl/releases 
+
+![](https://img.shields.io/github/downloads/NoncerPro/noncerpro-nimiq-opencl/total.svg?style=plastic)
 
 Nvidia miner: https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases
 
