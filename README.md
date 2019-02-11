@@ -37,7 +37,7 @@ Options
                    Example: -t=2 or -t=2 2 4
                    Default: 1                                            [array]
   -b, --batchsize  batchsize per thread.
-                   Example: -b=100 or -b=100 120 200
+                   Example: -b=80 or -b=70 80 80
                    Default: auto based on available device memory        [array]
   -l, --platform   OpenCL platform
                    nvidia or amd,
