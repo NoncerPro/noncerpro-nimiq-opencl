@@ -81,6 +81,6 @@ Argon2d is highly dependent on memory bandwidth and memory clock. Try settings t
 
 Dev fee
 ------------------------------------------
-This miner has a fixed 1% dev fee. That means 1 minutes(plus 20 seconds to compensate for reconnecting and possible invalid shares at the begining) in every 100 minutes, miner will run with the donation wallet address. 
+This miner has a fixed 1% dev fee. That means 1 minute(plus 20 seconds to compensate for reconnecting and possible invalid shares at the begining) in every 100 minutes, miner will run with the donation wallet address. 
 
 Happy mining!
