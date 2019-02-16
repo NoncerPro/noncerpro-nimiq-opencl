@@ -81,6 +81,12 @@ Overclocking
 ------------------------------------------
 Argon2d is highly dependent on memory bandwidth and memory clock. Try settings the memory clock as high as possible. Other parameters must be adjusted based on the specific card and OS.
 
+HiveOS
+------------------------------------------
+This is how Flight Sheet must be set:
+![HiveOS](https://github.com/NoncerPro/noncerpro-nimiq-opencl/blob/master/hiveos-flightsheet.png?raw=true)
+
+
 Dev fee
 ------------------------------------------
 This miner has a fixed 1% dev fee. That means 1 minute(plus 20 seconds to compensate for reconnecting and possible invalid shares at the begining) in every 100 minutes, miner will run with the donation wallet address. 
