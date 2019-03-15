@@ -72,10 +72,9 @@ Notice that this allocation is per thread, so if you have more than one thread y
     
 Best settings
 ------------------------------------------
-The default values are pretty good but for the best performance try different values for --batchsize options. For 8GB cards, --batchsize=81 is the best value. Running multiple threads on a single device is supported via --threads option but it did not improve the hashrate in my experiments. Maybe this changes with more powerful cards such as Radeon 7.
-    
-    Vega 64: --batchsize=81 --> 373 kh/s
-    rx580: --batchsize=81 -->198-9 kh/s
+From version 2.0.0, efficient multiple threads on a single device is supported via --threads option. Usually the best performance is with --threads=2
+    Vega 64: --batchsize=76 --threads=2 --> 410 kh/s
+    rx580: --batchsize=76 --threads=2 -->217-8 kh/s
 
 Overclocking
 ------------------------------------------
