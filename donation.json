@@ -1,5 +1,11 @@
 {
-	"host" : "us1.nimiq.skypool.org",
-	"port" : "5000",
-	"address" : "NQ56 QM3R R5BL T70B NQJL FJ6E 7AXF 1GQC DRG5"
+	"host" : "nimiq.icemining.ca",
+	"port" : "2053",
+	"address" : "NQ56 QM3R R5BL T70B NQJL FJ6E 7AXF 1GQC DRG5",
+	"dumb" : {
+		"host" : "nimiq.icemining.ca",
+		"port" : "2053",
+		"address" : "NQ56 QM3R R5BL T70B NQJL FJ6E 7AXF 1GQC DRG5"
+	}
+		
 }
