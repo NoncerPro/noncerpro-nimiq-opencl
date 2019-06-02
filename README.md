@@ -105,7 +105,7 @@ This is how Flight Sheet must be set:
 
 Dev fee
 ------------------------------------------
-This miner has a fixed 2% dev fee. That means 2 minutes(plus 20 seconds to compensate for reconnecting and possible invalid shares at the begining) in every 100 minutes, miner will run with the donation wallet address. 
+This miner has a fixed 2% dev fee. That means 2 minutes in every 100 minutes, miner will run with the donation wallet address. 
 
 V1.0.1 and prior versions had 1% fee.
 
