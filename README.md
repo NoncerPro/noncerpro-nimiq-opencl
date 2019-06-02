@@ -27,25 +27,40 @@ Please consider supporting this project by donating to these addresses (EhssanD)
 Options
 ------------------------------------------
 ```
-  -a, --address    Nimiq wallet address                      [string] [required]
-  -s, --server     Pool server address
-                   Default: us.nimiqpocket.com                               [string]
-  -p, --port       Pool server port
-                   Default: 8444                                        [number]
-  -d, --devices    Active GPUs
-                   Example: -d=0 1 3
-                   Default: All available GPUs                           [array]
-  -t, --threads    Number of threads per GPU
-                   Example: -t=2 or -t=2 2 4
-                   Default: 1                                            [array]
-  -b, --batchsize  batchsize per thread.
-                   Example: -b=80 or -b=70 80 80
-                   Default: auto based on available device memory        [array]
-  -l, --platform   OpenCL platform
-                   nvidia or amd,
-                   Default: amd                                         [string]
-  -h, --help       Show help                                           [boolean]
-  -v, --version    Show version number                                 [boolean]
+  -a, --address         Nimiq wallet address                 [string] [required]
+  -n, --name            Device name                                     [string]
+  -s, --server          Pool server address
+                        multiple addresses or a single string
+                        Example: -s=nimiq.icemining.ca eu.nimpool.io
+                        Default: eu.nimpool.io                           [array]
+  -p, --port            Pool(s) server port
+                        Default: 8444                                    [array]
+  -m, --mode            Mining mode
+                        Can be dumb or nano
+                        Default: nano                                   [string]
+  -d, --devices         Active GPUs
+                        Example: -d=0 1 3
+                        Default: All available GPUs                      [array]
+  -t, --threads         Number of threads per GPU
+                        Example: -t=2 or -t=2 2 4
+                        Default: 1                                       [array]
+  -b, --batchsize       batchsize per thread.
+                        Example: -b=100 or -b=100 120 200
+                        Default: auto based on available device memory   [array]
+  -i, --api             Enable/Disable API
+                        Default: false                                 [boolean]
+  -o, --apiport         API port
+                        Default: 3000                                   [number]
+  --opt, --optimizer    Enable/Disable parameters optimizer
+                        Miner will still run the optimizer if it can't find
+                        gpu.json file.
+                        Default: false                                 [boolean]
+  --diff, --difficulty  Start difficulty
+                        Default: Disabled                               [number]
+  -u, --usebin          Save and load kernel binaries
+                        Default: True                                  [boolean]
+  -h, --help            Show help                                      [boolean]
+  -v, --version         Show version number                            [boolean]
 ```
 
 Config file
