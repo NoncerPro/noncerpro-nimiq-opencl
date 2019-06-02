@@ -87,9 +87,11 @@ Notice that this allocation is per thread, so if you have more than one thread y
     
 Best settings
 ------------------------------------------
-From version 2.0.0, efficient multiple threads on a single device is supported via --threads option. Usually the best performance is with --threads=2
-    Vega 64: --batchsize=76 --threads=2 --> 410 kh/s
-    rx580: --batchsize=76 --threads=2 -->217-8 kh/s
+From version 2.0.0, efficient multiple threads on a single device is supported via --threads option. Usually the best performance is with --threads=2. Sample for rx 580 on linux:
+
+--threads=2 --batchsize=80
+core state:p3, core clock:1090, mem clock 2200, amdmemtweak: --ref=30(Linux)
+242 kh/s
 
 Overclocking
 ------------------------------------------
