@@ -100,7 +100,7 @@ Argon2d is highly dependent on memory bandwidth and memory clock. Try settings t
 HiveOS
 ------------------------------------------
 This is how Flight Sheet must be set:
-![HiveOS](https://github.com/NoncerPro/noncerpro-nimiq-opencl/blob/master/hiveos-flightsheet.png?raw=true)
+![HiveOS](https://github.com/NoncerPro/noncerpro-nimiq-opencl/blob/master/amd-flightsheet.png?raw=true)
 
 
 Dev fee
